@@ -1,0 +1,93 @@
+body{
+ text-align : center;
+background-color: #92a8d1;
+}
+#gallery1{
+ background-color : #D50000;
+}
+#avengers{
+ width : 800px;
+}
+#captain{
+ height : 300px;
+  width : 300px;
+}
+#hawkeye{
+ height : 300px;
+  width : 300px;
+}
+#hulk{
+ height : 300px;
+  width : 300px;
+}
+#iron{
+ height : 300px;
+ width : 300px;
+}
+#scarlet{
+ height : 300px;
+ width : 300px;
+}
+#spider{
+  width : 300px;
+  height : 300px;
+}
+#thor{
+ width : 300px;
+ height : 300px;
+}
+#widow{
+ height : 300px;
+ width : 300px;
+}
+#panther{
+ width : 300px;
+ height : 300px;
+}
+#falcon{
+ width : 300px;
+height : 300px;
+}
+#strange{
+ height : 300px;
+ width : 300px;
+}
+#ant{
+ width : 300px;
+ height : 300px;
+}
+#container {
+  width: 840px;
+  margin: 0 auto;
+}
+
+#container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#container ul li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 210px;
+  overflow: hidden;
+  
+  -webkit-transition: width .5s ease;
+  -moz-transition: width .5s ease;
+  -o-transition: width .5s ease;
+  transition: width .5s ease;
+}
+
+#container ul li img {
+  margin: 0;
+  padding: 0;
+}
+
+#container ul:hover li {
+  width: 180px;
+}
+#container ul:hover li:hover {
+  width: 300px;
+}
